@@ -1,0 +1,59 @@
+#basket {
+    margin-top: 120px;
+    padding-bottom: 30px;
+  }
+  
+  #basket .MuiButton-containedSecondary {
+    color: #121418; 
+  }
+  
+  .actions {
+    margin-top: 20px;
+  }
+  
+  .actions a {
+    color: #000000;
+    margin-left: 15px;
+    background-color: #ffffff;
+  }
+  
+  .actions a:hover {
+    background-color: #d3c5c6;
+  }
+
+  /* ========= Basket Banner =========== */
+.basket-banner {
+    padding-top: 150px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: #21262d;
+    background-image: linear-gradient(to bottom right, #242325, #000000);
+  }
+  
+  .basket-banner > div > div {
+    align-items: center;
+  }
+  
+  .basket-banner .brand {
+    display: flex;
+    align-items: center;
+  }
+  
+  .basket-banner .brand svg {
+    width: 100%;
+    font-size: 220px;
+  }
+  
+  .basket-banner .title {
+    font-size: 45px;
+    margin-bottom: 20px;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .basket-banner a.shopping-button {
+    color: #000000;
+    background-color: #E50914;
+  }
+  
