@@ -79,7 +79,8 @@ const ProductView = ( {addProduct} ) => {
                     <Grid item xs={12}>
                         <Button
                           size="small"
-                          color="secondary"
+                        //   color="secondary"
+                        className="decrease-product-quantity"
                         variant="container"
                         onClick={() => {
                             handleQuantity("decrease")

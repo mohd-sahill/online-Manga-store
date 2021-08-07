@@ -56,6 +56,12 @@
     color: black;
 }
 
+.MuiContainer-root.product-view .decrease-product-quantity{
+    background-color : transparent;
+    color: white;
+    border: 1px solid white;
+}
+
 .product-view .MuiGrid-root .MuiGrid-item {
     padding: 5px 15px;
 }
