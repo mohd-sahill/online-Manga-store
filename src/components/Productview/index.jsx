@@ -8,7 +8,7 @@ const createMarkup = (text) => {
     return { __html: text}
 }
 
-const ProductView = ( addProduct ) => {
+const ProductView = ( {addProduct} ) => {
 
     const [product,setProducts] = useState({})
     const [quantity,setQuantity] = useState(1)
